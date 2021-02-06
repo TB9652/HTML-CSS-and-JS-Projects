@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<title>Military Working Dogs</title>
+		<link rel="stylesheet" href="./one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
+	</head>
+	<body>
+	
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#videos"><li>VIDEOS</li>
+					<a href="#contact"><li>CONTACT</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span>Military Working Dogs</span>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>GALLERY</h1>
+				<div>
+					<div class="row">
+						<!-- PHOTO-CONTAINER 1 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD obstacle course 1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 1 -->
+						
+						<!-- PHOTO-CONTAINER 2 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD obstacle course 2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 2 -->
+						
+						<!-- PHOTO-CONTAINER 3 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD obstacle course 3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 3 -->
+						
+						<!-- PHOTO-CONTAINER 4 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD obstacle course 4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 4 -->
+					</div>
+						
+					<div class="row">
+						<!-- PHOTO-CONTAINER 5 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD controlled aggression 1.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 5 -->
+						
+						<!-- PHOTO-CONTAINER 6 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD controlled aggression 2.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 6 -->
+						
+						<!-- PHOTO-CONTAINER 7 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD controlled aggression 3.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 7 -->
+						
+						<!-- PHOTO-CONTAINER 8 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD controlled aggression 4.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 8 -->
+					</div>
+
+					<div class="row">	
+						<!-- PHOTO-CONTAINER 9 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD drug detection 1.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 9 -->
+						
+						<!-- PHOTO-CONTAINER 10 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD drug detection 2.png" onclick="openModal();currentSlide(10)" class="hover=shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 10 -->
+						
+						<!-- PHOTO-CONTAINER 11 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD drug detection 3.png" onclick="openModal();currentSlide(11)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 11 -->
+						
+						<!-- PHOTO-CONTAINER 12 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD drug detection 4.png" onclick="openModal();currentSlide(12)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 12 -->
+					</div>
+					
+					<div class="row">
+						<!-- PHOTO-CONTAINER 13 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD explosives detection 1.png" onclick="openModal();currentSlide(13)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 13 -->
+						
+						<!-- PHOTO-CONTAINER 14 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD explosives detection 2.png" onclick="openModal();currentSlide(14)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 14 -->
+						
+						<!-- PHOTO-CONTAINER 15 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD explosives detection 3.png" onclick="openModal();currentSlide(15)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 15 -->
+						
+						<!-- PHOTO-CONTAINER 16 -->
+						<div class="column">
+							<div>
+								<img src="./Thumbs/MWD explosives detection 4.png" onclick="openModal();currentSlide(16)" class="hover-shadow">
+							</div>
+						</div>
+						<!-- END OF PHOTO-CONTAINER 16 -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				
+				<div class="mySlides">
+					<div class="numbertext">1 / 16</div>
+					<img src="./Thumbs/MWD obstacle course 1.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 16</div>
+					<img src="./Thumbs/MWD obstacle course 2.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 16</div>
+					<img src="./Thumbs/MWD obstacle course 3.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 16</div>
+					<img src="./Thumbs/MWD obstacle course 4.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 / 16</div>
+					<img src="./Thumbs/MWD controlled aggression 1.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">6 / 16</div>
+					<img src="./Thumbs/MWD controlled aggression 2.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">7 / 16</div>
+					<img src="./Thumbs/MWD controlled aggression 3.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">8 / 16</div>
+					<img src="./Thumbs/MWD controlled aggression 4.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">9 / 16</div>
+					<img src="./Thumbs/MWD drug detection 1.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">10 / 16</div>
+					<img src="./Thumbs/MWD drug detection 2.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">11 / 16</div>
+					<img src="./Thumbs/MWD drug detection 3.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">12 / 16</div>
+					<img src="./Thumbs/MWD drug detection 4.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">13 / 16</div>
+					<img src="./Thumbs/MWD explosives detection 1.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">14 / 16</div>
+					<img src="./Thumbs/MWD explosives detection 2.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">15 / 16</div>
+					<img src="./Thumbs/MWD explosives detection 3.png" style="width: 100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">16 / 16</div>
+					<img src="./Thumbs/MWD explosives detection 4.png" style="width: 100%">
+				</div>
+
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!-- Caption Text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- Thumbnail image control -->
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD obstacle course 1.png" onclick="currentSlide(1)" alt="Three quick jumps">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD obstacle course 2.png" onclick="currentSlide(2)" alt="On the catwalk">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD obstacle course 3.png" onclick="currentSlide(3)" alt="Through the tunnel">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD obstacle course 4.png" onclick="currentSlide(4)" alt="Taking a rest">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD controlled aggression 1.png" onclick="currentSlide(5)" alt="Watching the decoy">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD controlled aggression 2.png" onclick="currentSlide(6)" alt="Target aquisition">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD controlled aggression 3.png" onclick="currentSlide(7)" alt="Bite and hold">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD controlled aggression 4.png" onclick="currentSlide(8)" alt="Two dogs, one decoy">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD drug detection 1.png" onclick="currentSlide(9)" alt="Searching the trunk of a car">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD drug detection 2.png" onclick="currentSlide(10)" alt="Searching for drug odor inside a car">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD drug detection 3.png" onclick="currentSlide(11)" alt="Searching lockers">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD drug detection 4.png" onclick="currentSlide(12)" alt="Casting high to search for drug odor">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD explosives detection 1.png" onclick="currentSlide(13)" alt="Searching for an IED">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD explosives detection 2.png" onclick="currentSlide(14)" alt="Searching debris">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD explosives detection 3.png" onclick="currentSlide(15)" alt="Searching for roadside IED">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./Thumbs/MWD explosives detection 4.png" onclick="currentSlide(16)" alt="Look at what I found, Dad">
+				</div>
+			</div>
+		</div>
+		
+		<!-- VIDEOS -->
+		<section>
+			<div id="videos">
+				<h1>VIDEOS</h1>
+				<div>
+				
+					<!--VIDEO-CONTAINER 1 -->
+					<div>
+						<div>
+							<iframe src="https://www.dvidshub.net/video/embed/594656" width="640" height="360" frameborder="0" allowtransparency allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- END VIDEO-CONTAINER 1 -->
+				
+					
+					<!--VIDEO-CONTAINER 2 -->
+					<div>
+						<div>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/zOmV274Py1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- END VIDEO-CONTAINER 2 -->
+					
+					<!--VIDEO-CONTAINER 3 -->
+					<div>
+						<div>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/f7vRAK2f3Yw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- END VIDEO-CONTAINER 3 -->
+					
+					<!--VIDEO-CONTAINER 4 -->
+					<div>
+						<div>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/2AX0fTTvRAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<!-- END VIDEO-CONTAINER 4 -->
+					
+				</div>
+			</div>
+		</section>
+		<!-- END VIDEOS -->
+		
+		<!-- CONTACT -->
+		<section id:"contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">CONTACT</h1>
+					<div class="contact">
+						<p class="contact-text">
+							Please provide us with your basic contact information.
+						</p>
+						<div class="form-contact">
+								<form action="" method="post">
+									<input class="information" type="text" value="" placeholder="First Name">
+									<input class="information" type="text" value="" placeholder="Last Name">
+									<input class="information" type="text" value="" placeholder="Email Address">
+									<input class="information" type="text" value="" placeholder="Phone Number">
+									<div class="form-spacer">
+										<label class="terms">Terms and Conditions</label>
+									</div>
+									<div>
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END CONTACT -->
+		
+		<!-- FOOTER -->
+		<div id="footer">
+			<p>
+				www.USAF-MWD.net &nbsp; &nbsp; &copy; 2020 Will Emond
+			</p>
+	
+		</div>
+		<!--END FOOTER -->
+		
+	</body>
+</html>
+				

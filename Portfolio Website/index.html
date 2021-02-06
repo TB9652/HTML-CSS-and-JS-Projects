@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Will Emond</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio_website.css">
+    </head>
+
+<!-- Body -->
+<body class="Background">
+
+<!-- Navbar -->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#Slideshow">Slideshow</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a onclick="openForm()" ondblclick="closeForm()">Contact</a>  <!-- Makes sure that the openForm function runs when we click Conact on the navbar -->
+    </div>
+
+<!-- Home -->
+    <div id="Home">
+        <br>  <!-- Breaks inserted to add space between navbar and first heading -->
+        <br>
+
+<!-- Video -->
+        <video autoplay muted loop id="Typing_Video"> <!-- Makes the video play automatically, on a loop with no sound -->
+            <source src="stylesheet/Video/Typing.mp4" type="video/mp4">
+            Your browser does not support HTML5 video  <!-- Display message if video fails to run -->
+        </video>
+    </div>
+
+<!-- Video text -->
+    <div class="Video_Text">
+        <h1 style="color:white;">Will Emond's Portfolio</h1>
+            <p>
+                <strong>
+                    <center>
+                        <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                        </q>
+                        <br>-Joseph Weizenbaum<br>
+                        <br>
+                        Hello.....my name is Will Emond and welcome to my portfolio website.  Here is where I'll tell you a little about me, my background and experience.<br>
+                        <br>I appreciate you for stopping by and I hope you enjoy your visit!
+                    </center>
+                </strong>
+            </p>
+    </div>
+
+<!-- Slideshow section -->
+    <div id="Slideshow">
+        <div id="Slideshow_Background">
+            <div id="Slideshow_Container">
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number"> 1 / 5</div>
+                        <img class="Slide_Show_Images" src="./stylesheet/Images/Will_Emond.jpg" style="width:100%">
+                         <div class="text">I'm available to assist you on your project!</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number"> 2 / 5</div>
+                        <img class="Slide_Show_Images" src="./stylesheet/Images/HTML_CSS_and_JavaScript.jpeg" style="width:100%">
+                            <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number"> 3 / 5</div>
+                        <img class="Slide_Show_Images" src="./stylesheet/Images/C_Sharp_and_Dot_NET.png" style="width:100%">
+                            <div class="text">C#, .NET Framework, ASP.NET, MVC format,</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number"> 4 / 5</div>
+                        <img class="Slide_Show_Images" src="./stylesheet/Images/SQL_and_Database.jpg" style="width:100%">
+                            <div class="text">back end development, databases and SQL.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="Slide_Number"> 5 / 5</div>
+                        <img class="Slide_Show_Images" src="./stylesheet/Images/Coding_1.jpg" style="width:100%">
+                            <div class="text">
+                                <a onclick="openForm()" href="#Contact" style="color:white;">Contact me now!</a>
+                            </div>
+                </div>
+
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>   
+        <br>  
+
+            <div style="text-align: center">
+
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+
+            </div>
+        </div>
+    </div>
+
+<!-- About section-->
+    <div class="Row" id="About">
+      <br>  <!-- Breaks inserted to add space between navbar and first heading -->
+      <br>
+      <div class="Column_2">
+        <!-- Left column -->
+        <img src="./stylesheet/Images/Development.jpg" alt="Laptop">
+      </div>
+
+      <div class="Column_1">
+        <!-- Right column -->
+        <h1>About</h1>
+        <p>Hello....I am a former law enforcement officer with an eye for details who loves coding and the problem solving challenges it brings!  Some of the things I enjoy are spending time with my family, reading, hiking and watching movies.  <br><br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, where I was trained and gained hands-on experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# , ASP.Net, .NET Framework and familiar with the MVC format. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+      </div>
+    </div>
+
+<!-- GitHub section -->
+    <div class="Row" id="GitHub">
+        <div class="Column_1"> <!-- Left column -->
+            <h1>GitHub</h1>
+            <p>You can view my coding projects on my GitHub profile here:<br>
+            <center><a href="https://github.com/TB9652" target="_blank">Will Emond's GitHub</a></center></p>
+        </div>
+
+        <div class="Column_2"> <!-- Right column-->
+            <a href="https://github.com/TB9652" target="_blank"><img src="stylesheet/Images/GitHub.png" alt="GitHub"></a>
+        </div>
+    </div>
+
+<!-- Contact section -->
+    <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button"> CONTACT </button>
+            <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing -->
+                <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                        <input type="text" placeholder="Type your name here" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                        <input type="text" placeholder="Enter your phone number here" name="phone">
+                    <label for="email"><b>Email</b></label>		
+                        <input type="text" placeholder="Type your email address here" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                        <input type="text" placeholder="Type your message here" name="message">
+        <button type="submit" class="btn">SUBMIT</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+            </div>
+    </div>
+    
+<!-- Footer section -->
+    <footer>
+        <p>
+            <center> &copy Prosper Consulting Inc., <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+        </p>
+    </footer>
+
+    <script src="JS/portfolio_website.js"></script>
+
+    </body>
+
+</html>
