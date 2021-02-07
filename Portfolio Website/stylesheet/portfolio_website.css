@@ -371,7 +371,7 @@ img:hover {
 	bottom: 1.785vw;
 	right: 1.75vw;
 	width: 25vw;
-	background-color: white;
+	background-color: blue;
 	color: black;
 	border: solid;
 	cursor: pointer;
@@ -429,7 +429,8 @@ button {
   font-size: 1.5vw;
   font-weight: bold;
   padding: 1.5vw 1.5vw;
-  border-style: solid;
+  border-style: outset;
+  border-radius: 6px;
   cursor: pointer;
   width: 100%;
   height: auto;
@@ -438,7 +439,7 @@ button {
 /* Hover effec for buttons */
 button:hover, .form-container .btn:hover {
 	color: white;
-	background-color: black;
+	background-color: royalblue;
 	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
 	border-style: solid;
