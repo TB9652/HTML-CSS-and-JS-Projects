@@ -75,7 +75,7 @@ body.fade-out {
 
 /* Navbar hover effect */
 .Navbar a:hover {
-    background-color: #F4F4F4; /*  This defines the background color that will display when you hover over the text on the navbar */
+    background-color: royalblue; /*  This defines the background color that will display when you hover over the text on the navbar */
     color: black; /* This defines the font color that will display when you hover over the text on the navbar */
 	font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 	cursor: pointer;
@@ -250,20 +250,21 @@ body.fade-out {
 .Column_1 {
 	float: left;  
 	width: 50%; /* This ensures one column takes up half the page width */
-	padding: 10px; 
+	padding: 1.6%; 
 	padding-top: 0%; /* This ensures there is space between the top of the column and our headings */
-	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
-	background-color: #f2f2f2; 
+	height: 450px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
+	background-color: lightsteelblue; 
+	overflow: scroll;
 }
 
 .Column_2 {
 	float: left;
 	width: 50%;
-	padding: 10px;
+	padding: 1.6%;
 	padding-top: 1.9%;
 	padding-bottom: 1.9%;
-	height: 400px;
-	background-color: #4d4d4d;
+	height: 450px;
+	background-color: blue;
 }
 
 .Row:after { /* This inserts something after the content of selected elements */
@@ -317,21 +318,12 @@ q {
 img {
 	filter: grayscale(75%); /* This rids our pictures of 75% of their color */
     border-radius: 8px; /* This causes our images to have slightly rounded edges */
-    max-width: 100%; 
-    height: 100%; 
-	margin: auto auto auto auto; /* This in combination with margin-right: auto centers our images */
+    max-width: 90%; 
+    height: 90%; 
+	margin: 15px auto auto auto; /* This in combination with margin-right: auto centers our images */
 	display: block;	/* By specifying block display we can ensure our images are able to be centered */
 }
 
-/* Image elements */
-img {
-	filter: grayscale(75%); /* This rids our pictures of 75% of their color */
-    border-radius: 8px; /* This causes our images to have slightly rounded edges */
-    max-width: 100%; 
-	height: 100%;
-    margin: auto auto auto auto;
-	display: block;	/* By specifying block display we can ensure our images are able to be centered */
-}
 
 /* Center align element hover effect */
 center:hover {
