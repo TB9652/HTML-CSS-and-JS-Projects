@@ -100,7 +100,7 @@ body.fade-out {
 
 
 /* Video */
-#Typing_Video {
+#Code {
     position: fixed; /* This fixes our video to the page  */
     right: 0; /* This ensures no space between the edge of the video and the edge of the page */
 	bottom: 0; /* This ensures no space between the edge of the video and the edge of the page */
@@ -252,7 +252,7 @@ body.fade-out {
 	width: 50%; /* This ensures one column takes up half the page width */
 	padding: 1.6%; 
 	padding-top: 0%; /* This ensures there is space between the top of the column and our headings */
-	height: 450px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
+	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
 	background-color: lightsteelblue; 
 	overflow: scroll;
 }
@@ -263,7 +263,7 @@ body.fade-out {
 	padding: 1.6%;
 	padding-top: 1.9%;
 	padding-bottom: 1.9%;
-	height: 450px;
+	height: 400px;
 	background-color: blue;
 }
 
@@ -277,7 +277,7 @@ body.fade-out {
 h1 {
 	text-transform: uppercase; /* We are capitalizing our headings */
 	font-family: "Trebuchet MS", Optima; 
-	font-size: 2.5vw;
+	font-size: 3.5vw;
 	text-align: center;
 	margin-top: 1%; /* We are adding a small margin above the headings */
 	color: darkred;
@@ -449,7 +449,7 @@ button:hover, .form-container .btn:hover {
 
 /* Footer element */
 footer {
-	padding: 2%;
+	padding: 1%;
 	background-color:white;
 }
 
