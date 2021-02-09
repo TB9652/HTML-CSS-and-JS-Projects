@@ -2,11 +2,27 @@
 Code snippets and screen shots from my HTML, CSS and JavaScript projects.
 
 ## Pizza Project
-Single page web page designed to simulate ordering pizza online.  Webpage 
+Single page web page using HTML, CSS and JavaScript designed to simulate ordering pizza online.  Webpage 
 allows user to select pizza size and toppings then upon clicking the "Order" button, 
 will give user a list of their selections and the total for the pizza.
 
-![Newsletter sign-up](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Order_Page.PNG)
-![Newsletter sign-up](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Order_Complete.PNG)
+![Pizza Project](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Order_Page.PNG)
+![Pizza Project](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Order_Complete.PNG)
 
 [Pizza Project](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/Pizza%20Project)
+
+## Project Space Station
+Single page scrolling website using HTML, CSS and JavaScript for a fictional space casino.  Website offers a gallery to view the casino and a contact section.
+
+![Project Space Station](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Space_Station.PNG)
+![Project Space Station](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Space_Station2.PNG)
+![Project Space Station](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Space_Station3.PNG)
+
+[Project Space Station](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/Project%20Space%20Station)
+
+## TicTacToe
+
+
+![TicTacToe](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/TicTacToe.PNG)
+
+[TicTacToe](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/TicTacToe)
