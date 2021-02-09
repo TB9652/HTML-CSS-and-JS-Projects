@@ -21,8 +21,16 @@ Single page scrolling website using HTML, CSS and JavaScript for a fictional spa
 [Project Space Station](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/Project%20Space%20Station)
 
 ## TicTacToe
-
+Classic TicTacToe game using HTML, CSS and JavaScript.
 
 ![TicTacToe](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/TicTacToe.PNG)
 
 [TicTacToe](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/TicTacToe)
+
+## My Portfolio website
+A single page, scolling website which highlights my training and experience in software development.  
+The website has a section which links directly to my projects inclusing this Readme file.
+
+![Portfolio Website](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Portfolio.PNG)
+
+[Portfolio Website](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/Portfolio%20Website)
