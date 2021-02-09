@@ -9,4 +9,4 @@ will give user a ;list of their selections and the total for the pizza.
 ![Newsletter sign-up](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Order_Page.PNG)
 ![Newsletter sign-up](https://github.com/TB9652/HTML-CSS-and-JS-Projects/blob/master/Order_Complete.PNG)
 
-
+[Newsletter](https://github.com/TB9652/HTML-CSS-and-JS-Projects/tree/master/Pizza%20Project)
