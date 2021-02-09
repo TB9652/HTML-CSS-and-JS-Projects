@@ -1,0 +1,40 @@
+/* COntainer includes table and canvas */
+
+h1 {
+    text-align: center;
+}
+.center-container {
+    /* Sets container width */
+    width: 608px; 
+    /* Centers container */
+    margin: 0 auto;
+    /* 50px down from top */
+    margin-top: 50px;
+}
+
+table {
+    /* Collapses table borders into one border. */
+    border-collapse: collapse;
+    /* Hides outer borders on table */
+    border-style: hidden;
+}
+
+td {
+    /* Changes cursor style to index finger when hovering over td elements */
+    cursor: pointer;
+    /* Sets table border style */
+    border: 4px solid rgba(226, 17, 17, 0.8);
+    /* Rempoves default padding */
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+canvas {
+    /* Sets position of canvas to top left corner of canvas */
+    position: absolute;
+    /* Places canvas over the top of the table */
+    z-index: 10;
+    /* Makes canvas invisible */
+    pointer-events: none;
+}
